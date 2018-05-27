@@ -1,3 +1,5 @@
 # Libs and Engine dirs:
 /engine
 /libs
+# .DS_Store
+.DS_Store
