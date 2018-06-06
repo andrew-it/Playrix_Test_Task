@@ -190,6 +190,7 @@ void GameObjectsWidget::Update(float dt)
 void GameObjectsWidget::showGameOver()
 {
 	Render::BindFont("doom");
+	Render::PrintString(WINDOW_WIDTH/2, WINDOW_HEIGHT/2, "GAME OVER", 1.f, CenterAlign);
 	Render::PrintString(WINDOW_WIDTH/2, WINDOW_HEIGHT/3, "Press 'R' to restart.", 1.f, CenterAlign);
 }
 
@@ -219,35 +220,8 @@ void GameObjectsWidget::makeShot(FVector3* vector, FPoint3* point)
 	list_of_bullets.push_back(std::make_shared<Bullet>(Bullet(point, vector, BULLET_SPEED)));
 }
 
-void GameObjectsWidget::AcceptMessage(const Message& message)
-{
-	//
-	// Виджету могут посылаться сообщения с параметрами.
-	//
-	
-	const std::string& publisher = message.getPublisher();
-	const std::string& data = message.getData();
-}
-
-void GameObjectsWidget::KeyPressed(int keyCode)
-{
-	//
-	// keyCode - виртуальный код клавиши.
-	// В качестве значений для проверки нужно использовать константы VK_.
-	//
-	
-	if (keyCode == VK_A) {
-		// Реакция на нажатие кнопки A
-		// restartGame();
-	}
-}
-
 void GameObjectsWidget::CharPressed(int unicodeChar)
 {
-	//
-	// unicodeChar - Unicode код введённого символа
-	//
-	
 	if (unicodeChar == L'r') {
 		restartGame();
 	}

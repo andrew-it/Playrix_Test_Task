@@ -21,7 +21,6 @@ protected:
 	Render::Texture* texture;
 	float _timer;
 	FPoint offset;
-	
 	EffectsContainer _effCont;
 
 public:
@@ -33,10 +32,7 @@ public:
 	virtual BoundingBox* getBoundingBox();
 	virtual void drawEffect(std::string effectName);
 	
-	
-	// TODO: function for mapping from 3d to screen's 2d
 	virtual FPoint3 mapTo2d();
-	
 	
 private:
 	float getScale();

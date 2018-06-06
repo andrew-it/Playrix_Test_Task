@@ -12,11 +12,7 @@ public:
 	void Draw() override;
 	void Update(float dt) override;
 	
-	void AcceptMessage(const Message& message) override;
-	
 	bool MouseDown(const IPoint& mouse_pos) override;
-	
-	void KeyPressed(int keyCode) override;
 	void CharPressed(int unicodeChar) override;
 	
 	void makeShot(FVector3* vector, FPoint3* point);

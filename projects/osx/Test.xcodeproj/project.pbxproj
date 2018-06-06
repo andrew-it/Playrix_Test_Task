@@ -29,7 +29,6 @@
 		DA753D4B20BD529E00641B38 /* IGameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA753D4920BD529E00641B38 /* IGameObject.cpp */; };
 		DA753D5020BF036700641B38 /* BoundingBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA753D4E20BF036700641B38 /* BoundingBox.cpp */; };
 		DA753D5520BF0FD200641B38 /* FPoint3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA753D5420BF0FD200641B38 /* FPoint3.cpp */; };
-		DA753D5820BF19C700641B38 /* IProjectile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA753D5620BF19C700641B38 /* IProjectile.cpp */; };
 		DA753D5B20BF1AC100641B38 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA753D5920BF1AC100641B38 /* Bullet.cpp */; };
 		DA753D5E20BF1D4B00641B38 /* Target.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA753D5C20BF1D4B00641B38 /* Target.cpp */; };
 		DA753D6720C5C6AE00641B38 /* FVector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA753D6520C5C6AE00641B38 /* FVector3.cpp */; };
@@ -80,7 +79,6 @@
 		DA753D4F20BF036700641B38 /* BoundingBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoundingBox.h; sourceTree = "<group>"; };
 		DA753D5220BF044000641B38 /* FPoint3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPoint3.h; sourceTree = "<group>"; };
 		DA753D5420BF0FD200641B38 /* FPoint3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FPoint3.cpp; sourceTree = "<group>"; };
-		DA753D5620BF19C700641B38 /* IProjectile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IProjectile.cpp; sourceTree = "<group>"; };
 		DA753D5720BF19C700641B38 /* IProjectile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IProjectile.h; sourceTree = "<group>"; };
 		DA753D5920BF1AC100641B38 /* Bullet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bullet.cpp; sourceTree = "<group>"; };
 		DA753D5A20BF1AC100641B38 /* Bullet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
@@ -237,7 +235,6 @@
 				DA753D4F20BF036700641B38 /* BoundingBox.h */,
 				DA753D5420BF0FD200641B38 /* FPoint3.cpp */,
 				DA753D5220BF044000641B38 /* FPoint3.h */,
-				DA753D5620BF19C700641B38 /* IProjectile.cpp */,
 				DA753D5720BF19C700641B38 /* IProjectile.h */,
 				DA753D6020C400AD00641B38 /* IUpdatable.h */,
 				DA753D6220C4554100641B38 /* IDrawable.h */,
@@ -342,7 +339,6 @@
 				A6869E111D229EF600C1D1B1 /* GuiWidget.cpp in Sources */,
 				A6869E0F1D229EF600C1D1B1 /* Main.cpp in Sources */,
 				DA753D5B20BF1AC100641B38 /* Bullet.cpp in Sources */,
-				DA753D5820BF19C700641B38 /* IProjectile.cpp in Sources */,
 				DA753D4620BCA81600641B38 /* GameObjectsWidget.cpp in Sources */,
 				DA753D4320BC93B800641B38 /* DebugWidget.cpp in Sources */,
 				DA753D6720C5C6AE00641B38 /* FVector3.cpp in Sources */,
