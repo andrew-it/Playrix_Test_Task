@@ -2,7 +2,9 @@
 <GUI>
 	<Layer name="TestLayer">
 		<Controls>
-			<TestWidget name="TestWidget"/>
+			<GuiWidget name="GuiWidget"/>
+            <DebugWidget name="DebugWidget"/>
+            <GameObjectsWidget name="GameObjectsWidget"/>
 		</Controls>
 	</Layer>
 </GUI>
